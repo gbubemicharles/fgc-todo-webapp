@@ -10,7 +10,7 @@ def add_todo():
 
 st.title("FGC To-do App")
 st.subheader("This is my to-do web app")
-st.write("This app designed to improve your productivity!")
+st.write("This app is designed to improve your productivity!")
 
 for i, todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=todo)
